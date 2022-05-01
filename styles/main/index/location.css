@@ -1,0 +1,54 @@
+.location-title {
+  text-align: center;
+  font-size: 2em;
+  margin: 0.5em 0;
+}
+
+.location-paragraph {
+  /* line-height: 200%; */
+  width: 75%;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+}
+
+.location-info {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.location-table {
+  width: 72% !important;
+  margin: 0 auto;
+}
+
+.location-table-info {
+  display: none;
+}
+
+.map {
+  text-align: center;
+  margin-top: 2em;
+}
+
+@media (max-width: 768px) {
+  .location-table {
+    display: none;
+  }
+
+  .location-table-info {
+    display: block;
+  }
+
+  .map {
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    text-align: justify;
+  }
+
+  .map iframe {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+  }
+}

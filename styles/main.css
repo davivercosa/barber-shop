@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* color: #262626; */
 }
 
 /* hero */
@@ -17,4 +16,15 @@
 
 .orange-detail {
   color: #ff4d00;
+}
+
+.icon-break {
+  margin: 2em;
+  text-align: center;
+}
+
+.horizontal-rule {
+  border: 0;
+  height: 1px;
+  background: #ff4d00;
 }

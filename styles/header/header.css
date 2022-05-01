@@ -128,8 +128,6 @@ a {
 
   .content-wrapper {
     margin-top: 1em;
-    height: 100vh;
     background-color: white;
-    padding: 0 24px;
   }
 }
