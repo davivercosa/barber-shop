@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="../styles/main.css" />
     <link rel="stylesheet" href="../styles/header/header.css" />
+    <link rel="stylesheet" href="../styles/main/contact/hero.css" />
     <title>barber-shop</title>
   </head>
   <body>
@@ -35,13 +36,25 @@
       </header>
 
       <section id="hero">
-        <h1 class="hero-title">Let your hair do the talking</h1>
-        <p class="hero-content">
-          Fast fades in no time. Straight shaves, straight styles.
-        </p>
+        <div class="hero">
+          <form class="form">
+            <label for="fname">Name:</label>
+            <input type="text" id="fname" placeholder="First Name" />
+            <input type="text" id="lname" placeholder="Last Name" />
+            <label for="email">Email:</label>
+            <input type="email" id="email" placeholder="admin@gmail.com" />
+            <label for="comment">Comment</label>
+            <textarea id="comment" cols="30" rows="10"></textarea>
+            <div class="agreement">
+              <input type="checkbox" id="agree" /> I agree to receiving
+              marketing and promotional materials
+            </div>
+            <input type="submit" id="submit" value="Submit" />
+          </form>
+        </div>
       </section>
-      <div class="content-wrapper"></div>
     </div>
     <script src="../js/header/header.js"></script>
+    <script src="../js/main/contact.js"></script>
   </body>
 </html>

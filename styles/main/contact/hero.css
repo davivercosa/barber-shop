@@ -1,0 +1,44 @@
+#hero {
+  margin: 0;
+  margin-top: 10vh;
+}
+
+.hero {
+  text-align: center;
+}
+
+.form {
+  margin: 0 auto;
+  gap: 1em;
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+#fname,
+#lname,
+#email,
+#submit {
+  height: 3em;
+  background-color: rgba(255, 255, 255, 0.266);
+  color: white;
+}
+
+#comment {
+  background-color: rgba(255, 255, 255, 0.266);
+  color: white;
+}
+
+#submit {
+  margin: 0 auto;
+  width: 40%;
+  border: 1px solid #262626;
+  border-radius: 20px;
+  background-color: #ff4d00;
+  color: white;
+}
+
+#submit:hover {
+  border: 1px solid #ff4d00;
+  background-color: #262626;
+}
