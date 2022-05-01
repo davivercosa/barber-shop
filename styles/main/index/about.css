@@ -15,6 +15,7 @@ main {
 
 .about-content--title {
   margin: 0 0 1.2em 0;
+  font-size: 2em;
 }
 
 .about-content--paragraph {
@@ -22,28 +23,32 @@ main {
 }
 
 .about-button {
-  margin: 1em 0;
-  text-align: center;
+  margin: 2em 0;
 }
 
 .about-button--button {
-  border: 1px solid #ff4d00;
+  border: 1px solid #262626;
   border-radius: 20px;
   padding: 1em;
-  color: white;
-  background-color: #262626;
+  background-color: #ff4d00;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
 }
 
+.about-button--button a {
+  text-decoration: none;
+  color: white;
+}
+
 .about-button--button:hover {
-  border: 1px solid #262626;
-  background-color: #ff4d00;
+  border: 1px solid #ff4d00;
+  background-color: #262626;
 }
 
 .about-image {
   max-width: 362px;
   max-height: 475px;
+  border-radius: 100%;
   width: auto;
   height: auto;
 }

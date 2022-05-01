@@ -1,11 +1,12 @@
 .info-title {
   text-align: center;
-  font-size: 2em;
-  margin-bottom: 0.5em;
+  font-size: 1.5em;
+  margin-bottom: 1em;
 }
 
 .info-paragraph {
   line-height: 200%;
+  margin: 0 auto;
   margin-bottom: 0.5em;
 }
 
@@ -82,10 +83,6 @@
   margin-top: 5px;
   margin-bottom: 10px;
   font-family: sans-serif;
-}
-
-p {
-  color: #808080;
 }
 
 .card:hover .card__img--hover {

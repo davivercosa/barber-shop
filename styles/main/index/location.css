@@ -1,12 +1,11 @@
 .location-title {
   text-align: center;
-  font-size: 2em;
-  margin: 0.5em 0;
+  font-size: 1.5em;
+  margin-bottom: 1em;
 }
 
 .location-paragraph {
-  /* line-height: 200%; */
-  width: 75%;
+  line-height: 200%;
   margin: 0 auto;
   margin-bottom: 0.5em;
 }
@@ -16,9 +15,28 @@
   text-align: center;
 }
 
+.location-button--phone {
+  margin-top: 1em;
+  border: 1px solid #262626;
+  background-color: #ff4d00;
+  padding: 1em;
+  border-radius: 20px;
+}
+
+.location-button--phone:hover {
+  border: 1px solid #ff4d00;
+  background-color: #262626;
+}
+
+.location-info a {
+  text-decoration: none;
+  color: white;
+}
+
 .location-table {
   width: 72% !important;
   margin: 0 auto;
+  margin-top: 1.5em;
 }
 
 .location-table-info {
@@ -37,6 +55,7 @@
 
   .location-table-info {
     display: block;
+    margin-top: 1em;
   }
 
   .map {

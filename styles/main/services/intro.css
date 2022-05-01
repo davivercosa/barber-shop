@@ -1,0 +1,31 @@
+main {
+  margin: 0 100px;
+}
+
+.intro-title {
+  text-align: center;
+  font-size: 2em;
+  color: #262626;
+  margin: 0 0 1.2em 0;
+}
+
+.intro-paragraph {
+  line-height: 200%;
+  width: 75%;
+  margin: 0 auto;
+  color: #262626;
+}
+
+@media (max-width: 768px) {
+  main {
+    margin: 0;
+  }
+
+  .intro-title {
+    text-align: left;
+  }
+
+  .intro-paragraph {
+    width: 100%;
+  }
+}
